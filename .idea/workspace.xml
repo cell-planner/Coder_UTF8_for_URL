@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d915565d-e5f4-466a-9519-d38e7b5608ea" name="Changes" comment="Первая ограниченная версия">
+    <list default="true" id="d915565d-e5f4-466a-9519-d38e7b5608ea" name="Changes" comment="версия с интерфейсом">
       <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -30,9 +30,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager">
@@ -84,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая ограниченная версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая ограниченная версия" />
+    <MESSAGE value="версия с интерфейсом" />
+    <option name="LAST_COMMIT_MESSAGE" value="версия с интерфейсом" />
   </component>
 </project>
