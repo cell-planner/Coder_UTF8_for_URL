@@ -8,7 +8,7 @@ class URLEncoderApp:
     def __init__(self, root):
         self.root = root
         self.root.title("URL Encoder")
-        self.root.geometry("700x600")
+        self.root.geometry("700x650")
         self.root.resizable(True, True)
 
         # Настройка стилей
@@ -146,6 +146,21 @@ class URLEncoderApp:
             font=("Arial", 8)
         )
         self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
+
+        # Дисклеймер с копирайтом
+        disclaimer_frame = tk.Frame(self.root, bg=self.bg_color)
+        disclaimer_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(0, 2))
+
+        disclaimer_text = "© Sunmar-Ольгино, 2026 г. Все права защищены"
+        self.disclaimer = tk.Label(
+            disclaimer_frame,
+            text=disclaimer_text,
+            bg=self.bg_color,
+            fg="#666666",
+            font=("Arial", 7),
+            anchor="center"
+        )
+        self.disclaimer.pack()
 
         # Привязка горячих клавиш
         self.root.bind('<Control-Return>', lambda e: self.encode_text())
